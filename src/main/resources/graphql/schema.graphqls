@@ -1,0 +1,9 @@
+type Query {
+  otaServiceInfo: OtaServiceInfo!
+}
+
+type OtaServiceInfo {
+  name: String!
+  version: String!
+}
+
